@@ -5,5 +5,11 @@
         "execute"    : true ,
         "description": "",
         "owner"      : ""
+    },{
+        "moduleName" : "pendulum",
+        "path"       : "modules/pendulum/pendulum.py",
+        "execute"    : true ,
+        "description": "",
+        "owner"      : ""
     }
 ]

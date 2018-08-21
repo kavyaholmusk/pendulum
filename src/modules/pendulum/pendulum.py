@@ -2,7 +2,7 @@ from logs import logDecorator as lD
 import json
 
 config = json.load(open('../config/config.json'))
-logBase = config['logging']['logBase'] + '.modules.module1.module1'
+logBase = config['logging']['logBase'] + '.modules.pendulum.pendulum'
 
 
 @lD.log(logBase + '.doSomething')
@@ -17,13 +17,7 @@ def doSomething(logger):
         [description]
     '''
 
-    logger.warning('skjdhfkjsdf skjdh')
-    logger.info('skldjfkljdf lksjdf')
-    logger.debug('sdkjlfkljklsdf')
-    logger.error('jksdkjhkl jkshhdk')
-    logger.critical('skldflk jhsdfkjh')
-    
-    print('We are in module 1')
+    print('We are in module pendulum')
 
     return
 
